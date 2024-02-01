@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Store By Agriculture Product</title>
+
+    <!-- code for font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ 
+    <!-- code for font awesome cdn -->
+
+      <!-- code for linkin css file -->
+      <link rel="stylesheet" href="css/style.css">
+        <!-- code for linking css file -->
+
+        <!-- for responsive size min max -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- for google translate------------------------ -->
+        
+        <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+</head>
+<body>
+    <!-- header section -->
+<header class = " header">
+    <a href="#" class ="logo"><i class="fa fa-pagelines"></i>Agriculture</a>
+  
+  
+   
+      <!-- <a href="#"class = "logo"><i class="fad fa-wheat"></i> Agriculture</a> -->
+  
+      <nav class = "navbar">
+          <a href="#Home">Home</a>
+          <a href="feature.html">Features</a>
+          <a href="product.html">Products</a>
+          <a href="categories.html">Categories</a>
+          <a href="review.html">Review</a>
+          <a href="#Blogs">Blogs</a>
+      </nav>
+  
+  
+      
+  
+      <div class="trans">
+        <div id="google_translate_element"></div>
+      </div>
+  
+  <!-- __________________________translate------------- -->
+  <script src="https://translate.google.com/translate_a/element.js?cb=loadGoogleTranslate"></script>
+  
+  
+  <script>
+    function loadGoogleTranslate() {
+      new google.translate.TranslateElement("google_translate_element");
+    }
+    </script>
+  
+  
+  
+  
+      <div class="icons">
+          <div class="fa fa-bars" id="menu-btn"></div>
+          <div class="fa fa-search" id="search-btn"></div>
+          <?php
+          $count=0;
+          if(isset($_SESSION['cart']))
+          {
+              $count=count($_SESSION['cart']);
+          }
+          ?>
+          <a href="./mycart.php" class="btn primary-btn">My Cart (<?php echo $count; ?>)</a> 
+          <div class="fa fa-user" id="login-btn"></div>
+         
+   
+      </div>
+  
+    
+    
+  
+    <!-- for search bar -->
+      <form class="search-form">
+          <input type="search" id="search-box" placeholder="Search Here..">
+          <label for="search-box" class="fa fa-search"></label>
+      </form>
+  
+  
+      <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+
+      <!-- code for linking  js file -->
+       <script src = "js/script.js"></script>
+        <!-- code for linking js file -->
+</body>
+</html>

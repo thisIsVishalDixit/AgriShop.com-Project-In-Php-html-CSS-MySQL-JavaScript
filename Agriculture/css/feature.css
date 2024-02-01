@@ -1,0 +1,45 @@
+/* -------------------feature-------------------- */
+.features .box-container
+{
+    border: 2x solid;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 1.5rem;
+
+}
+
+.features .box-container .box
+{
+  border: 0rem solid red;
+  padding: 3rem 2rem;
+  background: #fff;
+  outline: var(--outline);
+  outline-offset: -1rem;
+  text-align: center;
+  box-shadow: var(--box-shadow);
+}
+
+.features .box-container .box:hover
+{
+    box-shadow: 1px 1px 10px 4px var(--green);
+}
+
+.features .box-container .box image
+{
+ margin: 1rem 0;
+ height: 15rem;
+}
+
+.features .box-container .box h3{
+    font-size: 2.5rem;
+    line-height: 1.8rem;
+    color: var(--black);
+}
+
+.features .box-container .box p{
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    color: var(--light-color);
+    padding-bottom: 1rem 0;
+}
+

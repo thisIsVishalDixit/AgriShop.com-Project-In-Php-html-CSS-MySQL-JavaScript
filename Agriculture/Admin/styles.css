@@ -1,0 +1,36 @@
+/* styles.css */
+
+/* Body styles */
+body {
+    background-color: #fff;
+}
+
+/* Header styles */
+.header {
+    text-align: right;
+}
+
+/* Table styles */
+.table {
+    width: 100%;
+}
+
+/* Button styles */
+button {
+    background-color: green;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Container styles */
+.container {
+    margin-top: 20px;
+}
+
+/* Add more styles as needed */
