@@ -82,14 +82,6 @@ CREATE TABLE `signup` (
 -- Dumping data for table `signup`
 --
 
-INSERT INTO `signup` (`username`, `password`, `email`, `city`, `phone`) VALUES
-('', '12345', '', '', 0),
-('Vishal', 'Vishal@#1990', 'himanshujma2022@gmail.com', 'itawah', 2147483647),
-('manish', 'Manish@#1', 'manish1@gmail.com', 'delhi', 1231231231),
-('0', 'Manish@#123', 'Manish@gmail.com', 'bpl', 2147483647),
-('0', 'Vishal@#123', 'mrsigh@gmail.com', 'indore', 2147483647),
-('0', 'Vishal@#123', 'mrsingh060698@gmail.com', 'indore', 2147483647),
-('0', 'Vishal@#!23', 'mrsingh@gmail.com', 'indore', 2147483647);
 
 -- --------------------------------------------------------
 
